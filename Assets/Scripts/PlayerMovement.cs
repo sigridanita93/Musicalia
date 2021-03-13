@@ -35,6 +35,10 @@ public class PlayerMovement : MonoBehaviour
         {
             canJump = false;
         }
+        if(moveDir == 0)
+        {
+            myRB.velocity = new Vector2(x: 0f, y: myRB.velocity.y);
+        }
     }
 
     public void Move(InputAction.CallbackContext context)
