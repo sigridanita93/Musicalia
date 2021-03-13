@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float moveForce;
+    [SerializeField] private float moveForce, maxSpeed;
     
     private float moveDir; 
     private Rigidbody2D myRB;
@@ -19,7 +19,11 @@ public class PlayerMovement : MonoBehaviour
     {
         var moveAxis = Vector2.right * moveDir;
 
-        myRB.AddForce(moveAxis * moveForce, ForceMode2D.Force);
+        if(Mathf.Abs(myRB.velocity.x) < maxSpeed)
+        {
+            myRB.AddForce(moveAxis * moveForce, ForceMode2D.Force);
+        }
+        
     }
 
     public void Move(InputAction.CallbackContext context)
