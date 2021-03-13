@@ -6,9 +6,12 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveForce, maxSpeed, jumpForce;
-    
+    [SerializeField] private Collider2D groundCheck;
+    [SerializeField] private LayerMask groundLayers;
+
     private float moveDir; 
     private Rigidbody2D myRB;
+    private bool canJump;
 
     private void Start()
     {
@@ -23,7 +26,15 @@ public class PlayerMovement : MonoBehaviour
         {
             myRB.AddForce(moveAxis * moveForce, ForceMode2D.Force);
         }
-        
+       
+        if(groundCheck.IsTouchingLayers(groundLayers))
+        {
+            canJump = true;
+        }
+        else
+        {
+            canJump = false;
+        }
     }
 
     public void Move(InputAction.CallbackContext context)
@@ -33,6 +44,11 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext context)
     {
-        myRB.AddForce(Vector2.up* jumpForce, ForceMode2D.Impulse);
+        if (canJump)
+        {
+            myRB.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            canJump = false;
+        }
+       
     }
 }

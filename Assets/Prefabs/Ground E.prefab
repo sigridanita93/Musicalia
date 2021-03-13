@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2843411149500885954}
   - component: {fileID: 2843411149500885953}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2843411149667289531}
   - component: {fileID: 2843411149667289524}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground Sprite E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
