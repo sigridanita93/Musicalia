@@ -5,14 +5,30 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
- 
+    [SerializeField] private float moveForce;
+    
+    private float moveDir; 
+    private Rigidbody2D myRB;
+
+    private void Start()
+    {
+        myRB = GetComponent<Rigidbody2D>();
+    }
+
+    private void FixedUpdate()
+    {
+        var moveAxis = Vector2.right * moveDir;
+
+        myRB.AddForce(moveAxis * moveForce, ForceMode2D.Force);
+    }
+
     public void Move(InputAction.CallbackContext context)
     {
-        print(message:context.ReadValue<float>());
+        moveDir = context.ReadValue<float>();
     }
 
     public void Jump(InputAction.CallbackContext context)
     {
-        print(message: context.ReadValue<float>());
+        print(message:context.ReadValue<float>());
     }
 }
