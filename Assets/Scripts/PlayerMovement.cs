@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float moveForce, maxSpeed;
+    [SerializeField] private float moveForce, maxSpeed, jumpForce;
     
     private float moveDir; 
     private Rigidbody2D myRB;
@@ -33,6 +33,6 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext context)
     {
-        print(message:context.ReadValue<float>());
+        myRB.AddForce(Vector2.up* jumpForce, ForceMode2D.Impulse);
     }
 }
