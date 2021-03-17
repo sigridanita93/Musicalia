@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1223223985, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+  m_Name: Twinkle koreo
+  m_EditorClassIdentifier: 
+  mEventID: Twinkle koreo
+  mEventList:
+  - mStartSample: 0
+    mEndSample: 0
+  - mStartSample: 36361
+    mEndSample: 36361
+  - mStartSample: 71641
+    mEndSample: 71641
+  - mStartSample: 106921
+    mEndSample: 106921
+  - mStartSample: 142201
+    mEndSample: 142201
+  - mStartSample: 177481
+    mEndSample: 177481
+  - mStartSample: 212761
+    mEndSample: 212761
+  - mStartSample: 283321
+    mEndSample: 283321
+  - mStartSample: 318601
+    mEndSample: 318601
+  - mStartSample: 353881
+    mEndSample: 353881
+  - mStartSample: 389161
+    mEndSample: 389161
+  - mStartSample: 424441
+    mEndSample: 424441
+  - mStartSample: 459721
+    mEndSample: 459721
+  - mStartSample: 495001
+    mEndSample: 495001
+  _SerializedPayloadTypes: []
+  _AssetPayloads: []
+  _AssetPayloadIdxs: 
+  _ColorPayloads: []
+  _ColorPayloadIdxs: 
+  _CurvePayloads: []
+  _CurvePayloadIdxs: 
+  _FloatPayloads: []
+  _FloatPayloadIdxs: 
+  _GradientPayloads: []
+  _GradientPayloadIdxs: 
+  _IntPayloads: []
+  _IntPayloadIdxs: 
+  _SpectrumPayloads: []
+  _SpectrumPayloadIdxs: 
+  _TextPayloads: []
+  _TextPayloadIdxs: 
