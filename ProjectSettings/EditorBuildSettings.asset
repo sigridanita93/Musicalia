@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: f864f2a7ea4141341b5f4445d3e2a9c3
+  - enabled: 1
+    path: Assets/Scenes/Musicalia level 1.unity
+    guid: c84cd36d6a169b444a30d47f82b5c8b7
   m_configObjects: {}
