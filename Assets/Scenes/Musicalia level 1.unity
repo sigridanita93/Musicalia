@@ -173,7 +173,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2236810121950804078}
   m_PrefabAsset: {fileID: 0}
---- !u!58 &119954020
+--- !u!58 &119954022
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -211,25 +211,13 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &130807040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130807036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55bec3c87340814cb9037f95e3353dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &184536268 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2236810120775133060, guid: a050d1ea5b495f348b4ecac3b836b1b9,
     type: 3}
   m_PrefabInstance: {fileID: 2236810121950804078}
   m_PrefabAsset: {fileID: 0}
---- !u!58 &184536269
+--- !u!58 &184536271
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -251,7 +239,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2236810121950804078}
   m_PrefabAsset: {fileID: 0}
---- !u!58 &373839676
+--- !u!58 &373839678
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -267,31 +255,13 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!1 &499330684 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3392926133770621612, guid: f63d928668098ea45a957d109649b867,
-    type: 3}
-  m_PrefabInstance: {fileID: 3392926133900050352}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &499330689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499330684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55bec3c87340814cb9037f95e3353dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &504328289 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2236810120828686577, guid: a050d1ea5b495f348b4ecac3b836b1b9,
     type: 3}
   m_PrefabInstance: {fileID: 2236810121950804078}
   m_PrefabAsset: {fileID: 0}
---- !u!58 &504328290
+--- !u!58 &504328292
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -605,7 +575,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2236810121950804078}
   m_PrefabAsset: {fileID: 0}
---- !u!58 &816151463
+--- !u!58 &816151465
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -674,7 +644,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2236810121950804078}
   m_PrefabAsset: {fileID: 0}
---- !u!58 &865149408
+--- !u!58 &865149410
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -817,7 +787,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2236810121950804078}
   m_PrefabAsset: {fileID: 0}
---- !u!58 &1179940035
+--- !u!58 &1179940037
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -952,7 +922,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  points: 0
 --- !u!61 &1201643731
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -985,7 +954,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2236810121950804078}
   m_PrefabAsset: {fileID: 0}
---- !u!58 &1262499314
+--- !u!58 &1262499316
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1165,7 +1134,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2236810121950804078}
   m_PrefabAsset: {fileID: 0}
---- !u!58 &1460809911
+--- !u!58 &1460809913
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1187,7 +1156,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2236810121950804078}
   m_PrefabAsset: {fileID: 0}
---- !u!58 &1569505372
+--- !u!58 &1569505374
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1209,7 +1178,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2236810121950804078}
   m_PrefabAsset: {fileID: 0}
---- !u!58 &1610733971
+--- !u!58 &1610733973
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1231,7 +1200,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2236810121950804078}
   m_PrefabAsset: {fileID: 0}
---- !u!58 &1735338508
+--- !u!58 &1735338510
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1463,6 +1432,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Twinkle Twinkle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2236810121262428971, guid: a050d1ea5b495f348b4ecac3b836b1b9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Note
       objectReference: {fileID: 0}
     - target: {fileID: 2236810121295931811, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}

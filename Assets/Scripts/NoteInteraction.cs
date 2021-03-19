@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class NoteInteraction : MonoBehaviour
 {
-  private void OnTriggerEnter(Collider other)
+  private void OnTriggerEnter(Collider2D other)
     {
-        if (other.name == "Player")
+        if (other.gameObject.CompareTag("Note"))
         {
-            other.GetComponent<PlayerInteraction>().points++;
-            Destroy(gameObject);
+            Destroy(other.gameObject);
         }
     }
 }

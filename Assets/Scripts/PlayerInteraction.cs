@@ -27,13 +27,4 @@ public class PlayerInteraction : MonoBehaviour
             }
         }
     }
-    
-    public int points = 0;
-
-    private void OnGUI()
-    {
-        GUI.Label(new Rect(10, 10, 100, 20), "Score : " + points);
-    }
-
-
 }
